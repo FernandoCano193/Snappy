@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="snappyAPP.Views.Presentacion">
+
+    <Grid BackgroundColor="Black">
+        <StackLayout VerticalOptions="Center">
+            <Image Source="SnappyAPP.png"/>
+            <Label Text="Aplicación publicitaría" HorizontalOptions="CenterAndExpand" TextColor="White"
+                   CharacterSpacing="1.5" WidthRequest="200"/>
+        </StackLayout>
+        
+        <StackLayout VerticalOptions="End" Margin="10">
+            <Label Text="By" HorizontalOptions="Center"/>
+            <Label Text="Fernando Cano" HorizontalOptions="Center"/>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
