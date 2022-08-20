@@ -2,9 +2,31 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="snappyAPP.Views.Intro.View1">
-  <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
-  </ContentView.Content>
+
+    <Grid BackgroundColor="White"
+          RowDefinitions="100,400,auto">
+        <Label Text="¡BIENVENIDO!"
+               TextColor="Black"
+               FontSize="30"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+
+        <Frame CornerRadius="40"
+               Padding="0"
+               VerticalOptions="StartAndExpand"
+               Margin="20"
+               HeightRequest="400"
+               Grid.Row="1">
+            <Image Source="https://i.ibb.co/5jtm2SK/View1.jpg"
+                   Aspect="AspectFill"/>
+        </Frame>
+
+        <Label Text="Cambia la manera de buscar trabajo o dar a conocer tu negocio"
+               TextColor="Black"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="End"
+               FontSize="Title"
+               Grid.Row="2"
+               Margin="20"/>
+    </Grid>
 </ContentView>

@@ -4,7 +4,10 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "snappyAPP.Android.dll" comes first in this list. */
 		"snappyAPP.Android.dll",
 		"FormsViewGroup.dll",
+		"Lottie.Android.dll",
+		"Lottie.Forms.dll",
 		"snappyAPP.dll",
+		"Square.OkIO.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

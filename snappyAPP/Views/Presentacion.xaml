@@ -5,8 +5,8 @@
 
     <Grid BackgroundColor="Black">
         <StackLayout VerticalOptions="Center">
-            <Image Source="SnappyAPP.png"/>
-            <Label Text="Aplicación publicitaría" HorizontalOptions="CenterAndExpand" TextColor="White"
+            <Image Source="SnappyAPP.png" x:Name="Logo"/>
+            <Label Text="Aplicación publicitaría" HorizontalTextAlignment="Center" TextColor="White"
                    CharacterSpacing="1.5" WidthRequest="200"/>
         </StackLayout>
         

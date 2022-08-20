@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pgIxWQbkalm8p5GOr47q6U3g6YaG/Q9gJZgcAQj3SNY9RFp7NC/Ft+STyZPnhLbbfe89HzO97O6q1eXsvXMESQ==",
+  "dgSpecHash": "Z51h5d7rBe0VuhTTJB3bwPY0KY1kryBplWByDSqRHt3hHxtTHpXyC0WhgfKDRMBYXHjH7EK/7RnvI8I81NFOKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ferna\\OneDrive\\Documentos\\snappyAPP\\snappyAPP.iOS\\snappyAPP.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ferna\\.nuget\\packages\\com.airbnb.ios.lottie\\2.5.13\\com.airbnb.ios.lottie.2.5.13.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.1.0\\com.airbnb.xamarin.forms.lottie.4.1.0.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512"

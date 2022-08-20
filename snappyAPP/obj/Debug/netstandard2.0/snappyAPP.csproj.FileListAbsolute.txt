@@ -17,3 +17,4 @@ C:\Users\ferna\OneDrive\Documentos\snappyAPP\snappyAPP\obj\Debug\netstandard2.0\
 C:\Users\ferna\OneDrive\Documentos\snappyAPP\snappyAPP\obj\Debug\netstandard2.0\refint\snappyAPP.dll
 C:\Users\ferna\OneDrive\Documentos\snappyAPP\snappyAPP\obj\Debug\netstandard2.0\snappyAPP.pdb
 C:\Users\ferna\OneDrive\Documentos\snappyAPP\snappyAPP\obj\Debug\netstandard2.0\ref\snappyAPP.dll
+C:\Users\ferna\OneDrive\Documentos\snappyAPP\snappyAPP\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs

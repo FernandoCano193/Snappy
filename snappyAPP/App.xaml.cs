@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using snappyAPP.Views;
+using snappyAPP.Views.Intro;
 
 namespace snappyAPP
 {
@@ -11,7 +12,7 @@ namespace snappyAPP
         {
             InitializeComponent();
 
-            MainPage = new Presentacion();
+            MainPage = new Login();
         }
 
         protected override void OnStart()

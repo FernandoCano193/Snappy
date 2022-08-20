@@ -1,4 +1,5 @@
-﻿using System;
+﻿using snappyAPP.Views.Intro;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,14 @@ namespace snappyAPP.Views
         public Presentacion()
         {
             InitializeComponent();
+            Animacion();
+        }
+
+        public async Task Animacion()
+        {
+            Logo.Opacity = 0;
+            await Logo.FadeTo(1, 2000);
+            App.Current.MainPage = new Intro1();
         }
     }
 }
