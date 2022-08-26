@@ -12,7 +12,7 @@ namespace snappyAPP
         {
             InitializeComponent();
 
-            MainPage = new Login();
+            MainPage = new CrearUsuario();
         }
 
         protected override void OnStart()

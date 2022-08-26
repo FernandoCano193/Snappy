@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:degradado="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="snappyAPP.Views.CrearUsuario">
+
+    <Grid RowDefinitions="240,*" BackgroundColor="#3D3D3D">
+        <Image Source="SnappyAPPsinfondo.png"
+               Grid.Row="0"/>
+
+        <StackLayout Grid.Row="1"
+                     Orientation="Vertical"
+                     Margin="20">
+            
+            <StackLayout Orientation="Horizontal" HeightRequest="50"
+                         HorizontalOptions="Center" VerticalOptions="Center">
+                <Button Text="Subir Imagen"
+                        CornerRadius="15"/>
+                <Image Source="https://i.ibb.co/W5pMs5L/camara.png" HeightRequest="40"/>
+            </StackLayout>
+
+            <Entry Placeholder="Nombres"
+                   TextColor="White"
+                   Margin="0,10,0,10"/>
+            
+            <Entry Placeholder="Correo"
+                   TextColor="White"
+                   Margin="0,0,0,10"/>
+            
+            <Entry Placeholder="Contraseña"
+                   TextColor="White"
+                   IsPassword="True"
+                   Margin="0,0,0,10"/>
+
+            <Button Text="Crear Cuenta"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    CornerRadius="10"
+                    HorizontalOptions="Center"
+                    WidthRequest="250"
+                    Margin="20"/>
+        </StackLayout>
+
+
+    </Grid>
+    
+</ContentPage>
