@@ -20,8 +20,9 @@ public class OnCompositionLoadedListenerImplementor
 	public OnCompositionLoadedListenerImplementor ()
 	{
 		super ();
-		if (getClass () == OnCompositionLoadedListenerImplementor.class)
+		if (getClass () == OnCompositionLoadedListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Com.Airbnb.Lottie.IOnCompositionLoadedListenerImplementor, Lottie.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

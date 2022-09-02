@@ -20,8 +20,9 @@ public class LottieAnimationView_ImageAssetDelegateImpl
 	public LottieAnimationView_ImageAssetDelegateImpl ()
 	{
 		super ();
-		if (getClass () == LottieAnimationView_ImageAssetDelegateImpl.class)
+		if (getClass () == LottieAnimationView_ImageAssetDelegateImpl.class) {
 			mono.android.TypeManager.Activate ("Com.Airbnb.Lottie.LottieAnimationView+ImageAssetDelegateImpl, Lottie.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

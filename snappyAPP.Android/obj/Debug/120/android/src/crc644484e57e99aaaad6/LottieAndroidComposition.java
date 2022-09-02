@@ -18,8 +18,9 @@ public class LottieAndroidComposition
 	public LottieAndroidComposition ()
 	{
 		super ();
-		if (getClass () == LottieAndroidComposition.class)
+		if (getClass () == LottieAndroidComposition.class) {
 			mono.android.TypeManager.Activate ("Lottie.Forms.Platforms.Android.LottieAndroidComposition, Lottie.Forms", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	private java.util.ArrayList refList;

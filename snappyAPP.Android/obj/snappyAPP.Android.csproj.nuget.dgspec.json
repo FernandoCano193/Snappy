@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ferna\\OneDrive\\Documentos\\snappyAPP\\snappyAPP.Android\\snappyAPP.Android.csproj": {}
+    "C:\\Snappy\\Snappy\\snappyAPP.Android\\snappyAPP.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ferna\\OneDrive\\Documentos\\snappyAPP\\snappyAPP.Android\\snappyAPP.Android.csproj": {
+    "C:\\Snappy\\Snappy\\snappyAPP.Android\\snappyAPP.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ferna\\OneDrive\\Documentos\\snappyAPP\\snappyAPP.Android\\snappyAPP.Android.csproj",
+        "projectUniqueName": "C:\\Snappy\\Snappy\\snappyAPP.Android\\snappyAPP.Android.csproj",
         "projectName": "snappyAPP.Android",
-        "projectPath": "C:\\Users\\ferna\\OneDrive\\Documentos\\snappyAPP\\snappyAPP.Android\\snappyAPP.Android.csproj",
+        "projectPath": "C:\\Snappy\\Snappy\\snappyAPP.Android\\snappyAPP.Android.csproj",
         "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ferna\\OneDrive\\Documentos\\snappyAPP\\snappyAPP.Android\\obj\\",
+        "outputPath": "C:\\Snappy\\Snappy\\snappyAPP.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "C:\\Users\\ferna\\OneDrive\\Documentos\\snappyAPP\\snappyAPP\\snappyAPP.csproj": {
-                "projectPath": "C:\\Users\\ferna\\OneDrive\\Documentos\\snappyAPP\\snappyAPP\\snappyAPP.csproj"
+              "C:\\Snappy\\Snappy\\snappyAPP\\snappyAPP.csproj": {
+                "projectPath": "C:\\Snappy\\Snappy\\snappyAPP\\snappyAPP.csproj"
               }
             }
           }
@@ -39,6 +43,10 @@
         "monoandroid12.0": {
           "dependencies": {
             "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "FirebaseDatabase.net": {
               "target": "Package",
               "version": "[4.1.0, )"
             },
@@ -58,17 +66,21 @@
         }
       }
     },
-    "C:\\Users\\ferna\\OneDrive\\Documentos\\snappyAPP\\snappyAPP\\snappyAPP.csproj": {
+    "C:\\Snappy\\Snappy\\snappyAPP\\snappyAPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ferna\\OneDrive\\Documentos\\snappyAPP\\snappyAPP\\snappyAPP.csproj",
+        "projectUniqueName": "C:\\Snappy\\Snappy\\snappyAPP\\snappyAPP.csproj",
         "projectName": "snappyAPP",
-        "projectPath": "C:\\Users\\ferna\\OneDrive\\Documentos\\snappyAPP\\snappyAPP\\snappyAPP.csproj",
+        "projectPath": "C:\\Snappy\\Snappy\\snappyAPP\\snappyAPP.csproj",
         "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ferna\\OneDrive\\Documentos\\snappyAPP\\snappyAPP\\obj\\",
+        "outputPath": "C:\\Snappy\\Snappy\\snappyAPP\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,6 +88,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -95,6 +108,10 @@
           "targetAlias": "netstandard2.0",
           "dependencies": {
             "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "FirebaseDatabase.net": {
               "target": "Package",
               "version": "[4.1.0, )"
             },
@@ -123,11 +140,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

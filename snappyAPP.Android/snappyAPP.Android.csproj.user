@@ -3,7 +3,7 @@
   <PropertyGroup>
     <SelectedDevice>LGE LM-K420</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
-    <ActiveDebugProfile>LGE LM-K420</ActiveDebugProfile>
+    <ActiveDebugProfile>LGE LM-K420 %28Android 11.0 - API 30%29</ActiveDebugProfile>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

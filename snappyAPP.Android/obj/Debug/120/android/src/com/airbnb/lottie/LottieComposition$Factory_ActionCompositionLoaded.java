@@ -20,8 +20,9 @@ public class LottieComposition$Factory_ActionCompositionLoaded
 	public LottieComposition$Factory_ActionCompositionLoaded ()
 	{
 		super ();
-		if (getClass () == LottieComposition$Factory_ActionCompositionLoaded.class)
+		if (getClass () == LottieComposition$Factory_ActionCompositionLoaded.class) {
 			mono.android.TypeManager.Activate ("Com.Airbnb.Lottie.LottieComposition+Factory+ActionCompositionLoaded, Lottie.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

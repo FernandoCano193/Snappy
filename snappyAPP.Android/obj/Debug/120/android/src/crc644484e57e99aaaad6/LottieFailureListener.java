@@ -20,8 +20,9 @@ public class LottieFailureListener
 	public LottieFailureListener ()
 	{
 		super ();
-		if (getClass () == LottieFailureListener.class)
+		if (getClass () == LottieFailureListener.class) {
 			mono.android.TypeManager.Activate ("Lottie.Forms.Platforms.Android.LottieFailureListener, Lottie.Forms", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

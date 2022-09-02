@@ -24,8 +24,9 @@ public class AnimatorListener
 	public AnimatorListener ()
 	{
 		super ();
-		if (getClass () == AnimatorListener.class)
+		if (getClass () == AnimatorListener.class) {
 			mono.android.TypeManager.Activate ("Lottie.Forms.Platforms.Android.AnimatorListener, Lottie.Forms", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

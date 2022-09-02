@@ -20,8 +20,9 @@ public class PerformanceTracker_FrameListenerImplementor
 	public PerformanceTracker_FrameListenerImplementor ()
 	{
 		super ();
-		if (getClass () == PerformanceTracker_FrameListenerImplementor.class)
+		if (getClass () == PerformanceTracker_FrameListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Com.Airbnb.Lottie.PerformanceTracker+IFrameListenerImplementor, Lottie.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

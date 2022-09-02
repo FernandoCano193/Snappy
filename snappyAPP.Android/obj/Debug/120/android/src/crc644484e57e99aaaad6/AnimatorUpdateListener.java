@@ -20,8 +20,9 @@ public class AnimatorUpdateListener
 	public AnimatorUpdateListener ()
 	{
 		super ();
-		if (getClass () == AnimatorUpdateListener.class)
+		if (getClass () == AnimatorUpdateListener.class) {
 			mono.android.TypeManager.Activate ("Lottie.Forms.Platforms.Android.AnimatorUpdateListener, Lottie.Forms", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

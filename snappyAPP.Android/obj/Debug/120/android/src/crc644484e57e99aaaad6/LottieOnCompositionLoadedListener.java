@@ -20,8 +20,9 @@ public class LottieOnCompositionLoadedListener
 	public LottieOnCompositionLoadedListener ()
 	{
 		super ();
-		if (getClass () == LottieOnCompositionLoadedListener.class)
+		if (getClass () == LottieOnCompositionLoadedListener.class) {
 			mono.android.TypeManager.Activate ("Lottie.Forms.Platforms.Android.LottieOnCompositionLoadedListener, Lottie.Forms", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

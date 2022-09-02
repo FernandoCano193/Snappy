@@ -20,8 +20,9 @@ public class ClickListener
 	public ClickListener ()
 	{
 		super ();
-		if (getClass () == ClickListener.class)
+		if (getClass () == ClickListener.class) {
 			mono.android.TypeManager.Activate ("Lottie.Forms.Platforms.Android.ClickListener, Lottie.Forms", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 
