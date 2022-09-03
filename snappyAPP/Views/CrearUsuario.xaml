@@ -21,16 +21,19 @@
 
             <Entry Placeholder="Nombres"
                    TextColor="White"
-                   Margin="0,10,0,10"/>
+                   Margin="0,10,0,10"
+                   x:Name="txtNombre"/>
             
             <Entry Placeholder="Correo"
                    TextColor="White"
-                   Margin="0,0,0,10"/>
+                   Margin="0,0,0,10"
+                   x:Name="txtEmail"/>
             
             <Entry Placeholder="Contraseña"
                    TextColor="White"
                    IsPassword="True"
-                   Margin="0,0,0,10"/>
+                   Margin="0,0,0,10"
+                   x:Name="txtPassword"/>
 
             <Button Text="Crear Cuenta"
                     BackgroundColor="White"
@@ -38,6 +41,8 @@
                     CornerRadius="10"
                     HorizontalOptions="Center"
                     WidthRequest="250"
+                    x:Name="btnCrearCuenta"
+                    Clicked="btnCrearCuenta_Clicked"
                     Margin="20"/>
         </StackLayout>
 

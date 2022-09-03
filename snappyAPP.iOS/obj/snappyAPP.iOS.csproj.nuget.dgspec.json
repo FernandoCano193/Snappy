@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[4.1.0, )"
             },
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
             "FirebaseDatabase.net": {
               "target": "Package",
               "version": "[4.1.0, )"
@@ -121,6 +125,10 @@
             "Com.Airbnb.Xamarin.Forms.Lottie": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
             },
             "FirebaseDatabase.net": {
               "target": "Package",

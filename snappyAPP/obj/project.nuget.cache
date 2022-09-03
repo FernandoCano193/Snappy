@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jx4U9rB6Ew6Y4j07iJiM23Emm2PpDl7f/Icoq2MuBeKmY5IBUA8x011RXRvxt3sGHbPO0YQ7Re2qFMZ7jOA4jg==",
+  "dgSpecHash": "EXSGwz5lwMSOSypbjd3F1AuCHY4cAqMY6+H63nLUZZFXYWoIUoXhnLXyCD8ZF8vZuNd4oAgh3o/lL9W7jYhzyA==",
   "success": true,
   "projectFilePath": "C:\\Snappy\\Snappy\\snappyAPP\\snappyAPP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ferna\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.1.0\\com.airbnb.xamarin.forms.lottie.4.1.0.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\firebasedatabase.net\\4.1.0\\firebasedatabase.net.4.1.0.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
