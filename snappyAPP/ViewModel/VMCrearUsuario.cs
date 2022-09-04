@@ -45,5 +45,7 @@ namespace snappyAPP.ViewModel
             IdUsuario = GuardarId.User.LocalId;
             return IdUsuario;
         }
+
+
     }
 }

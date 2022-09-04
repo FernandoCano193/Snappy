@@ -4,7 +4,7 @@
              xmlns:degradado="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              x:Class="snappyAPP.Views.CrearUsuario">
 
-    <Grid RowDefinitions="240,*" BackgroundColor="#3D3D3D">
+    <Grid RowDefinitions="130,*" BackgroundColor="#3D3D3D">
         <Image Source="SnappyAPPsinfondo.png"
                Grid.Row="0"/>
 
@@ -12,11 +12,18 @@
                      Orientation="Vertical"
                      Margin="20">
             
-            <StackLayout Orientation="Horizontal" HeightRequest="50"
+            <StackLayout HeightRequest="180"
                          HorizontalOptions="Center" VerticalOptions="Center">
+
+                <Image Source="https://i.ibb.co/W5pMs5L/camara.png" HeightRequest="100"
+                       x:Name="FotoPerfil"/>
+                
                 <Button Text="Subir Imagen"
-                        CornerRadius="15"/>
-                <Image Source="https://i.ibb.co/W5pMs5L/camara.png" HeightRequest="40"/>
+                        CornerRadius="15"
+                        x:Name="btnSubirFoto"
+                        Margin="0,10,0,0"
+                        Clicked="btnSubirFoto_Clicked"/>
+
             </StackLayout>
 
             <Entry Placeholder="Nombres"
